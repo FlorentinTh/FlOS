@@ -1,6 +1,6 @@
 # FlOS
 
-[![GitHub release](https://img.shields.io/github/release/FlorentinTh/FlOS.svg?style=flat-square)](https://github.com/FlorentinTh/FlOS/releases) [![GitHub](https://img.shields.io/github/license/FlorentinTh/FlOS.svg?style=flat-square)](https://github.com/FlorentinTh/FlOS/blob/master/LICENSE)
+[![GitHub Release](https://img.shields.io/github/release/FlorentinTh/FlOS?style=flat-square)](https://github.com/FlorentinTh/FlOS/releases) [![GitHub](https://img.shields.io/github/license/FlorentinTh/FlOS?style=flat-square)](https://github.com/FlorentinTh/FlOS/blob/master/LICENSE)
 
 [**FlOS**](https://github.com/FlorentinTh/FlOS) is a custom ARMv8 server operating system based on Debian 10 - Buster for Raspberry Pi.
 
