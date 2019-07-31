@@ -40,6 +40,7 @@
   * [3.10 Clean Up](docs/50-bake-FlOS.md#10-clean-up)
   * [3.11 Copy the SD Card](docs/50-bake-FlOS.md#11-copy-the-sd-card)
   * [3.12 Shrink the Image](docs/50-bake-FlOS.md#12-shrink-the-image)
+  * [3.13 Package the Image](docs/50-bake-FlOS.md#13-package-the-image)
 
 **Annexes**
 

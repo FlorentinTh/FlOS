@@ -18,16 +18,24 @@ Since the Debian team have release a minimal version of Debian 10 - Buster speci
 
 ## 1. Prerequisites
 
+- Remove useless preinstalled packages :
+
+```bash
+> apt-get --purge remove -y apparmor busybox \
+    eatmydata krb5-locales libeatmydata1 pigz
+```
+
 - Update the system :
 
 ```bash
 > apt-get update && apt-get dist-upgrade -y
 ```
 
-- Install required tools :
+- Install required packages :
 
 ```bash
-> apt install plymouth -y
+> apt install -y avahi-daemon bash-completion \
+    fake-hwclock netcat-openbsd netcat-traditional plymouth
 ```
 
 - Edit the ```cmdline.txt``` file :
@@ -443,3 +451,20 @@ $ sudo  pishrink.sh sd-card-copy.img sd-card-copy-small.img
 ```
 
 _The smaller resulting image is now ready to be flash any time on any sd card !_
+
+## 13. Package the Image
+
+- On Linux, use the following command to create a ```.xz``` archive of you ```.img``` file :
+
+```bash
+# from the xz-utils package
+$ xz -k sd-card-copy-small.img
+```
+
+> if you don't want to keep the ```.img``` file, remove the ```-k``` option.
+
+- Finally, generate a ```sha256``` checksum for your archive :
+
+```bash
+$ sha256sum sd-card-copy-small.img.xz > sd-card-copy-small.img.xz.sha256
+```
