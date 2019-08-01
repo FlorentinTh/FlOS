@@ -8,7 +8,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   
 ### Changed
 
-- default ```eth0``` interface configuration in ```/etc/network/interfaces.d/eth0``` file that attributed two IP addresses.
+- Default ```eth0``` interface configuration in ```/etc/network/interfaces.d/eth0``` file that attributed two IP addresses.
 
 ## [1.0.1] - 2019-07-31
 
